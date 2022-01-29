@@ -1,0 +1,51 @@
+.container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.arrows {
+	text-align:center;
+}
+
+.eur-and-rb {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.first-currency, .second-currency {
+  margin: 0 10px;
+}
+
+.arrows {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.inputs > input{
+  max-width:55px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.button-div {
+  width: 136px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.errorText {
+  color: #770010;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
